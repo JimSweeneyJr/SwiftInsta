@@ -17,6 +17,8 @@
 		229FCA622ABBB65600D07ABA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA612ABBB65600D07ABA /* MainTabView.swift */; };
 		229FCA642ABBB74200D07ABA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA632ABBB74200D07ABA /* ProfileView.swift */; };
 		229FCA692ABD141D00D07ABA /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA682ABD141D00D07ABA /* StatView.swift */; };
+		229FCA6B2ABD220E00D07ABA /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA6A2ABD220E00D07ABA /* FeedView.swift */; };
+		229FCA6D2ABD221A00D07ABA /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA6C2ABD221A00D07ABA /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		229FCA612ABBB65600D07ABA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		229FCA632ABBB74200D07ABA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		229FCA682ABD141D00D07ABA /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		229FCA6A2ABD220E00D07ABA /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		229FCA6C2ABD221A00D07ABA /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +195,8 @@
 		229FCA5B2ABBB5B800D07ABA /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				229FCA6A2ABD220E00D07ABA /* FeedView.swift */,
+				229FCA6C2ABD221A00D07ABA /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -370,10 +376,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229FCA6D2ABD221A00D07ABA /* FeedCell.swift in Sources */,
 				229FCA642ABBB74200D07ABA /* ProfileView.swift in Sources */,
 				229FCA292ABBB30E00D07ABA /* ContentView.swift in Sources */,
 				229FCA692ABD141D00D07ABA /* StatView.swift in Sources */,
 				229FCA272ABBB30E00D07ABA /* SwiftInstagramApp.swift in Sources */,
+				229FCA6B2ABD220E00D07ABA /* FeedView.swift in Sources */,
 				229FCA622ABBB65600D07ABA /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
