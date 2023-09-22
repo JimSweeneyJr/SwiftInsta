@@ -69,7 +69,30 @@ struct FeedCell: View {
             
             // likes label
             
+            Text("23 likes")
+                .font(.footnote)
+                .fontWeight(.semibold)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.leading, 10)
+                .padding(.top, 10)
+            
             // caption label
+            HStack {
+                Text("Rachael C.").fontWeight(.semibold) +
+                Text("This is a test for caption. This is only a test and this test is working for double lines.")
+            }
+            .font(.footnote)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.leading, 10)
+            .padding(.top, 1)
+            
+            Text("6 hours ago")
+                .font(.footnote)
+                .fontWeight(.semibold)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.leading, 10)
+                .padding(.top, 1)
+                .foregroundColor(.gray)
         }
     }
 }
