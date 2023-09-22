@@ -8,22 +8,44 @@
 import SwiftUI
 
 struct ProfileView: View {
+    
+    private let gridItems: [GridItem] = [
+        .init(.flexible(), spacing: 1),
+        .init(.flexible(), spacing: 1),
+        .init(.flexible(), spacing: 1)
+    ]
     var body: some View {
         VStack {
             // header
-            VStack {
+            VStack(spacing: 10) {
                 // pic and stats
                 HStack {
+                    Image("RachProfilePic")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 80, height: 80)
+                        .clipShape(Circle())
                     
+                    Spacer()
+                    
+                    HStack(spacing: 8) {
+                        
+                        StatView(value: 3, title: "Posts")
+                        
+                        StatView(value: 3, title: "Followers")
+                        
+                        StatView(value: 3, title: "Following")
+                        
+                    }
                 }
-                
+                .padding(.horizontal)
                 // name and bio
                 VStack(alignment: .leading, spacing: 4){
-                    Text("Chadwick Bozeman")
+                    Text("Rachael Clark")
                         .font(.footnote)
                         .fontWeight(.semibold)
                     
-                    Text("Wakanda Forever")
+                    Text("Work is Life!")
                         .font(.footnote)
                         
                 }
@@ -48,8 +70,47 @@ struct ProfileView: View {
                 Divider()
             }
             // post grid view
+            
+            LazyVGrid(columns: gridItems, content: {
+                
+                Image("bridge")
+                    .resizable()
+                    .scaledToFill()
+                
+                Image("bridge")
+                    .resizable()
+                    .scaledToFill()
+                
+                Image("bridge")
+                    .resizable()
+                    .scaledToFill()
+                Image("bridge")
+                    .resizable()
+                    .scaledToFill()
+                
+                Image("bridge")
+                    .resizable()
+                    .scaledToFill()
+                
+                Image("bridge")
+                    .resizable()
+                    .scaledToFill()
+                Image("bridge")
+                    .resizable()
+                    .scaledToFill()
+                
+                Image("bridge")
+                    .resizable()
+                    .scaledToFill()
+                
+                Image("bridge")
+                    .resizable()
+                    .scaledToFill()
+            })
+                
+            } // LAZYVGRID
         }
-    }
+    
 }
 
 struct ProfileView_Previews: PreviewProvider {
