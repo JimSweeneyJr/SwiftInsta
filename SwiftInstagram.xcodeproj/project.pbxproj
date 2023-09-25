@@ -20,6 +20,7 @@
 		229FCA6B2ABD220E00D07ABA /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA6A2ABD220E00D07ABA /* FeedView.swift */; };
 		229FCA6D2ABD221A00D07ABA /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA6C2ABD221A00D07ABA /* FeedCell.swift */; };
 		229FCA6F2AC114A100D07ABA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA6E2AC114A100D07ABA /* SearchView.swift */; };
+		229FCA712AC11BF300D07ABA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA702AC11BF300D07ABA /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		229FCA6A2ABD220E00D07ABA /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		229FCA6C2ABD221A00D07ABA /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		229FCA6E2AC114A100D07ABA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		229FCA702AC11BF300D07ABA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 		229FCA5A2ABBB5AB00D07ABA /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				229FCA702AC11BF300D07ABA /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				229FCA6D2ABD221A00D07ABA /* FeedCell.swift in Sources */,
 				229FCA642ABBB74200D07ABA /* ProfileView.swift in Sources */,
 				229FCA292ABBB30E00D07ABA /* ContentView.swift in Sources */,
+				229FCA712AC11BF300D07ABA /* LoginView.swift in Sources */,
 				229FCA692ABD141D00D07ABA /* StatView.swift in Sources */,
 				229FCA6F2AC114A100D07ABA /* SearchView.swift in Sources */,
 				229FCA272ABBB30E00D07ABA /* SwiftInstagramApp.swift in Sources */,
