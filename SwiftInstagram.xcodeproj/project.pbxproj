@@ -21,6 +21,7 @@
 		229FCA6D2ABD221A00D07ABA /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA6C2ABD221A00D07ABA /* FeedCell.swift */; };
 		229FCA6F2AC114A100D07ABA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA6E2AC114A100D07ABA /* SearchView.swift */; };
 		229FCA712AC11BF300D07ABA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA702AC11BF300D07ABA /* LoginView.swift */; };
+		229FCA732AC2378300D07ABA /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA722AC2378300D07ABA /* AddEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		229FCA6C2ABD221A00D07ABA /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		229FCA6E2AC114A100D07ABA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		229FCA702AC11BF300D07ABA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		229FCA722AC2378300D07ABA /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				229FCA702AC11BF300D07ABA /* LoginView.swift */,
+				229FCA722AC2378300D07ABA /* AddEmailView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				229FCA292ABBB30E00D07ABA /* ContentView.swift in Sources */,
 				229FCA712AC11BF300D07ABA /* LoginView.swift in Sources */,
 				229FCA692ABD141D00D07ABA /* StatView.swift in Sources */,
+				229FCA732AC2378300D07ABA /* AddEmailView.swift in Sources */,
 				229FCA6F2AC114A100D07ABA /* SearchView.swift in Sources */,
 				229FCA272ABBB30E00D07ABA /* SwiftInstagramApp.swift in Sources */,
 				229FCA6B2ABD220E00D07ABA /* FeedView.swift in Sources */,
