@@ -22,6 +22,9 @@
 		229FCA6F2AC114A100D07ABA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA6E2AC114A100D07ABA /* SearchView.swift */; };
 		229FCA712AC11BF300D07ABA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA702AC11BF300D07ABA /* LoginView.swift */; };
 		229FCA732AC2378300D07ABA /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA722AC2378300D07ABA /* AddEmailView.swift */; };
+		229FCA752AC2473800D07ABA /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA742AC2473800D07ABA /* IGTextFieldModifier.swift */; };
+		229FCA772AC2491200D07ABA /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA762AC2491200D07ABA /* CreateUsernameView.swift */; };
+		229FCA792AC24AE900D07ABA /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA782AC24AE900D07ABA /* CreatePasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		229FCA6E2AC114A100D07ABA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		229FCA702AC11BF300D07ABA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		229FCA722AC2378300D07ABA /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		229FCA742AC2473800D07ABA /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
+		229FCA762AC2491200D07ABA /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
+		229FCA782AC24AE900D07ABA /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +202,8 @@
 			children = (
 				229FCA702AC11BF300D07ABA /* LoginView.swift */,
 				229FCA722AC2378300D07ABA /* AddEmailView.swift */,
+				229FCA762AC2491200D07ABA /* CreateUsernameView.swift */,
+				229FCA782AC24AE900D07ABA /* CreatePasswordView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -251,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				229FCA682ABD141D00D07ABA /* StatView.swift */,
+				229FCA742AC2473800D07ABA /* IGTextFieldModifier.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -391,10 +400,13 @@
 				229FCA712AC11BF300D07ABA /* LoginView.swift in Sources */,
 				229FCA692ABD141D00D07ABA /* StatView.swift in Sources */,
 				229FCA732AC2378300D07ABA /* AddEmailView.swift in Sources */,
+				229FCA772AC2491200D07ABA /* CreateUsernameView.swift in Sources */,
 				229FCA6F2AC114A100D07ABA /* SearchView.swift in Sources */,
+				229FCA752AC2473800D07ABA /* IGTextFieldModifier.swift in Sources */,
 				229FCA272ABBB30E00D07ABA /* SwiftInstagramApp.swift in Sources */,
 				229FCA6B2ABD220E00D07ABA /* FeedView.swift in Sources */,
 				229FCA622ABBB65600D07ABA /* MainTabView.swift in Sources */,
+				229FCA792AC24AE900D07ABA /* CreatePasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
