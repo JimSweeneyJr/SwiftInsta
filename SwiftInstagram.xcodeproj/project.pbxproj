@@ -25,6 +25,8 @@
 		229FCA752AC2473800D07ABA /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA742AC2473800D07ABA /* IGTextFieldModifier.swift */; };
 		229FCA772AC2491200D07ABA /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA762AC2491200D07ABA /* CreateUsernameView.swift */; };
 		229FCA792AC24AE900D07ABA /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA782AC24AE900D07ABA /* CreatePasswordView.swift */; };
+		229FCA7B2AC3A77F00D07ABA /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA7A2AC3A77F00D07ABA /* CompleteSignUpView.swift */; };
+		229FCA7D2AC3AA5600D07ABA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FCA7C2AC3AA5600D07ABA /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		229FCA742AC2473800D07ABA /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
 		229FCA762AC2491200D07ABA /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
 		229FCA782AC24AE900D07ABA /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		229FCA7A2AC3A77F00D07ABA /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
+		229FCA7C2AC3AA5600D07ABA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 		229FCA552ABBB56600D07ABA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				229FCA7C2AC3AA5600D07ABA /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				229FCA722AC2378300D07ABA /* AddEmailView.swift */,
 				229FCA762AC2491200D07ABA /* CreateUsernameView.swift */,
 				229FCA782AC24AE900D07ABA /* CreatePasswordView.swift */,
+				229FCA7A2AC3A77F00D07ABA /* CompleteSignUpView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -401,6 +407,8 @@
 				229FCA692ABD141D00D07ABA /* StatView.swift in Sources */,
 				229FCA732AC2378300D07ABA /* AddEmailView.swift in Sources */,
 				229FCA772AC2491200D07ABA /* CreateUsernameView.swift in Sources */,
+				229FCA7B2AC3A77F00D07ABA /* CompleteSignUpView.swift in Sources */,
+				229FCA7D2AC3AA5600D07ABA /* User.swift in Sources */,
 				229FCA6F2AC114A100D07ABA /* SearchView.swift in Sources */,
 				229FCA752AC2473800D07ABA /* IGTextFieldModifier.swift in Sources */,
 				229FCA272ABBB30E00D07ABA /* SwiftInstagramApp.swift in Sources */,
